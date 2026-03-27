@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color:rgb(19, 2, 117) ;
+    color: white;
+    height: 60px;
+    text-align: center;
+
+}
+.choice{
+    height: 165px; 
+    width: 165px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+}
+.choice:hover{
+     cursor:pointer;
+     background-color:rgb(223, 214, 214);
+}
+img{
+    height: 150px; 
+    width: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+
+}
+p{
+    text-align: center;
+    height: 50px; 
+
+     
+}
+.choices{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 5rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin: 3rem;
+    gap: 4rem;
+}
+
+#user-score,#comp-score{
+    font-size: 3rem;
+    
+}
+.msg-container{
+      margin-top: 5rem;
+      text-align: center;
+}
+#msg{
+    background-color:black ;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+  
+}
+body{
+   background-image: url('https://media.istockphoto.com/id/1772523123/photo/children-playing-rock-paper-scissors.jpg?s=612x612&w=0&k=20&c=4wNP4F_TdbFi09ATBs0GNsT8DJ4yP02RHVwuYYSToxg=');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+}
+
+.score-board{
+    border: 5px solid rgb(31, 28, 28);
+    background-color: rgb(63, 58, 58);
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: aliceblue;
+}
